@@ -1,0 +1,12 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+	<main id="main">
+		{% if post %}
+			<h1>{{ hero_title|default('')|trim ?: post.title }}</h1>
+			{{ post.content }}
+		{% else %}
+			<h1>{{ hero_title|default('')|trim ?: site.name }}</h1>
+		{% endif %}
+	</main>
+{% endblock %}

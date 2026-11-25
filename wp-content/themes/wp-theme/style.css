@@ -1,0 +1,22 @@
+/*
+Theme Name: WP Theme
+Description: A starter WordPress theme using Timber, Twig, and Secure Custom Fields.
+Version: 1.0.0
+Requires PHP: 8.0
+*/
+
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  background: #fff;
+}
+
+main {
+  width: min(100% - 2rem, 70rem);
+  margin: 3rem auto;
+}

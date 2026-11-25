@@ -1,0 +1,21 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+	<main id="main">
+		{% if post %}
+			<article>
+				<h1>{{ post.title }}</h1>
+				{{ post.content }}
+			</article>
+		{% elseif posts %}
+			{% for item in posts %}
+				<article>
+					<h2><a href="{{ item.link }}">{{ item.title }}</a></h2>
+					{{ item.preview }}
+				</article>
+			{% endfor %}
+		{% else %}
+			<p>No content found.</p>
+		{% endif %}
+	</main>
+{% endblock %}

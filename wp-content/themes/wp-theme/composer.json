@@ -1,0 +1,9 @@
+{
+  "name": "wp-theme/wp-theme",
+  "description": "A WordPress theme built with Timber and Twig.",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "timber/timber": "^2.0"
+  }
+}

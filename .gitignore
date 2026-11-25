@@ -32,6 +32,7 @@ wp-content/*
 ### Composer ###
 composer.phar
 /vendor/
+wp-content/themes/wp-theme/vendor/
 
 ### Node ###
 # Dependency directories
